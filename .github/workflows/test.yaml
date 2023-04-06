@@ -15,4 +15,4 @@ jobs:
         with:
           node-version: 16
       - run: cd functions && npm ci
-      - run: cd functions && node index.js
+      - run: node functions/index.js
